@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friskay</title>
+    <!-- inter variable font from google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- main stylesheet -->
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <!-- wrapper div for the whole page -->
+    <div class="wrap">
+      <header>
+        <!-- contains icon and menu -->
+        <div class="header-left">
+          <!-- logo link  -->
+          <a href="index.html">
+            <img src="./src/logo.svg" alt="Friskay logo" />
+          </a>
+
+          <div class="divider hide-mobile"></div>
+          <a href="#" class="home hide-mobile">Home</a>
+        </div>
+        <!-- header right -->
+        <nav>
+          <a href="#" class="menu-open hide-desktop">
+            <img src="/src/menu.svg" alt="menu" />
+          </a>
+          <ul>
+            <li class="hide-desktop">
+              <a href="#" class="menu-close">
+                <img src="/src/close.svg" alt="Close menu" />
+              </a>
+            </li>
+            <li><a href="#">Our Food</a></li>
+            <li><a href="#">Ingredients</a></li>
+            <li><a href="#">Studies</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <h1>
+          Your cat will go
+          <img src="/src/bonkers.svg" alt="text saying bonkers" />
+        </h1>
+        <p class="subhead">
+          ..for the world’s best testing cat food, sourced with only the finest
+          ingredients. Made with love from the heart of Mississippi.
+        </p>
+        <a href="#" class="primary-cta">Get Bonkers</a>
+      </main>
+
+      <div class="cat-container">
+        <div class="cat">
+          <img src="/src/cat.png" alt="Cat picture" />
+          <div class="inner-circle"></div>
+          <div class="outer-circle"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
